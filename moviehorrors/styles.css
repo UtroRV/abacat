@@ -21,11 +21,12 @@ body {
 }
 
 .principal {
-    background-image: url("img/fundo");
+    background-image: url("img/aka\ manto");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
     text-align: center;
+    width: 1920px;
 }
 
 .container {
@@ -60,7 +61,7 @@ body {
 }
 
 .container__imagem {
-    margin: 1em 0 2em 0;
+    width: 1800px;
 }
 
 .container__caixa {
@@ -152,4 +153,8 @@ body {
 .container__botao:hover {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
+}
+
+.secundario__imagem{
+    width: 480px;
 }
